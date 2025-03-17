@@ -1,4 +1,4 @@
-#Arquitectura de Alta Disponibilidad con Auto Scaling y Load Balancer  
+# Arquitectura de Alta Disponibilidad con Auto Scaling y Load Balancer  
  
 **Implementación de una infraestructura escalable y de alta disponibilidad en AWS.**
 
