@@ -1,18 +1,19 @@
-# 🌍 Arquitectura de Alta Disponibilidad con Auto Scaling y Load Balancer  
+#Arquitectura de Alta Disponibilidad con Auto Scaling y Load Balancer  
+ 
+**Implementación de una infraestructura escalable y de alta disponibilidad en AWS.**
 
-Imagen diagrama de la estructura
-![diagrama AWS alta disponibilidad](https://github.com/user-attachments/assets/d1f0af9f-5bcd-4ffd-b2ab-dcda3ed94b5d)
-
-
-*Descripción**  
-Implementación de una infraestructura escalable y de alta disponibilidad en AWS utilizando EC2, ALB, Auto Scaling y RDS.  
-
-## 📁 Servicios Utilizados  
+### Servicios Utilizados  
 - **VPC** → Redes públicas y privadas  
 - **EC2** → Instancias en un Auto Scaling Group  
 - **ALB (Application Load Balancer)** → Balanceo de carga  
 - **Auto Scaling Group** → Escalabilidad automática  
 - **RDS** → Base de datos en subredes privadas  
+
+ 
+## Imagen diagrama de la estructura
+
+![diagrama AWS alta disponibilidad](https://github.com/user-attachments/assets/d1f0af9f-5bcd-4ffd-b2ab-dcda3ed94b5d)
+
 
 ## 📜 Arquitectura  
 ![Arquitectura AWS](architecture.png)  
@@ -22,9 +23,3 @@ Implementación de una infraestructura escalable y de alta disponibilidad en AWS
 2. **Auto Scaling:** Implementación de escalado basado en CPU.  
 3. **Load Balancer:** Configuración de ALB con Target Groups.  
 4. **RDS:** Creación de una base de datos en subredes privadas.  
-
-## 🚀 Pasos para Implementar  
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/aws-high-availability.git
-cd aws-high-availability
