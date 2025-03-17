@@ -1,5 +1,9 @@
 # 🌍 Arquitectura de Alta Disponibilidad con Auto Scaling y Load Balancer  
 
+Imagen diagrama de la estructura
+![diagrama AWS alta disponibilidad](https://github.com/user-attachments/assets/d1f0af9f-5bcd-4ffd-b2ab-dcda3ed94b5d)
+
+
 *Descripción**  
 Implementación de una infraestructura escalable y de alta disponibilidad en AWS utilizando EC2, ALB, Auto Scaling y RDS.  
 
