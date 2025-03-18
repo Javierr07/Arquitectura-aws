@@ -12,7 +12,7 @@
  
 ## Imagen diagrama de la estructura
 
-![diagrama AWS alta disponibilidad](https://github.com/user-attachments/assets/d1f0af9f-5bcd-4ffd-b2ab-dcda3ed94b5d)
+![image](https://github.com/user-attachments/assets/8a510e83-af4e-4182-af63-b2fad08d28fd)
 
 
 ## Arquitectura  
