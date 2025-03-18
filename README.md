@@ -25,7 +25,6 @@ muestra los detalles principales de la VPC creada, como es el ID, el CIDR block,
 
 ### **Subredes**
  
-muestra los detalles principales de la VPC creada, como es el ID, el CIDR block, y que la ![image](https://github.com/user-attachments/assets/00a590c9-00a9-467b-be87-57083ef1ddbb)
 lista de las subredes publicas y privadas creadas para la nuestra PVC, tambien se muestra informacion importante de las subredes credaas como lo es su nombre, la ID de la subred, el estado, la VPC que la contiene, su zona de sisponibilidad, etc..
 
 ![image](https://github.com/user-attachments/assets/457a8e15-c241-4a02-a24f-2041b4cfb00e)
