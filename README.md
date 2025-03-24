@@ -44,7 +44,27 @@ muestra la configuracion final de la estructura de la VPC, la conexion de las su
 
 
 
- 
-6. **Auto Scaling:** Implementación de escalado basado en CPU.  
-7. **Load Balancer:** Configuración de ALB con Target Groups.  
+
+# Aplication Load Balancer
+
+configuramos el ALB para nuestro autoscaling el cual el trafico que reciba sera distribuido en los servidores que el autoscaling genere de esta manera evitamos que los servidores no se sibrecarguen y se trabaje de manera eficiente.
+
+![image](https://github.com/user-attachments/assets/a5ce80c5-4d4c-4254-9329-e9523deba72c)
+
+## grupo de destino
+
+este grupo de destino se genero como definicion hacia donde deve elviar el balanceador de carga el trafico que reciba.
+
+![image](https://github.com/user-attachments/assets/2be8c9ad-bbe7-4429-8be5-54b394d051a6)
+
+
+# Auto Scaling
+
+## template 
+
+configuracion general del template usado en el cual definimos la ami a usar, el tipo de intancia, el par de claves, tambien agregamos un script en el cual descargamos alctualizaciones del servidor, intalamos Apache, lo iniicalizamos y creamos el archivo index.html.
+
+![image](https://github.com/user-attachments/assets/a681266f-3c43-4ab9-bc02-310676e9cb31)
+
+
 8. **RDS:** Creación de una base de datos en subredes privadas.  
