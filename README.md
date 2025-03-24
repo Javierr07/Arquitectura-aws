@@ -66,5 +66,18 @@ configuracion general del template usado en el cual definimos la ami a usar, el 
 
 ![image](https://github.com/user-attachments/assets/a681266f-3c43-4ab9-bc02-310676e9cb31)
 
+## grupo de Autoscaling
+
+configuracion general del grupo de autoscaling en el cual se detallo los servidores deseados, minimos y maximos, tambien lo asociamos a nuestra vpc, nuestro autoscaling y listo para funcionar.
+
+![image](https://github.com/user-attachments/assets/6f3067aa-5242-4443-9ad0-893c76f40965)
+
+
+
+
+
+
+
+
 
 8. **RDS:** Creación de una base de datos en subredes privadas.  
