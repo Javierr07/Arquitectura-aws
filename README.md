@@ -73,9 +73,22 @@ configuracion general del grupo de autoscaling en el cual se detallo los servido
 ![image](https://github.com/user-attachments/assets/6f3067aa-5242-4443-9ad0-893c76f40965)
 
 
+## demostracion de autoscaling con ALB
+
+### instancias generadas 
+
+![image](https://github.com/user-attachments/assets/5148e6a8-fdc2-4083-8ae8-3a003cbe2812)
+
+### ingresamos a travez del dns del balanceador de carga 
 
 
+![image](https://github.com/user-attachments/assets/5e956c6a-ca45-4a60-9de2-1753427c85ba)
 
+
+![image](https://github.com/user-attachments/assets/c9506e7f-641f-420e-8bb3-89fc39f83e4d)
+
+
+![image](https://github.com/user-attachments/assets/46ecfed5-c48a-4998-befe-5ac9d5584e20)
 
 
 
