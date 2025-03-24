@@ -90,6 +90,11 @@ configuracion general del grupo de autoscaling en el cual se detallo los servido
 
 ![image](https://github.com/user-attachments/assets/46ecfed5-c48a-4998-befe-5ac9d5584e20)
 
+### tambien en grupos de destino podemos monitorear el estado de los servidores
+
+
+![image](https://github.com/user-attachments/assets/cc51a7ce-1fe5-4bcd-b462-7952d4e58f64)
+
 
 
 
