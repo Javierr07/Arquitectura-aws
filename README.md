@@ -33,13 +33,14 @@ lista de las subredes publicas y privadas creadas para la nuestra PVC, tambien s
 
 lista de las dos tablas de enrutamiento que se han utilizados para las subredes publicas y las subredes privadas.
 
-![image](https://github.com/user-attachments/assets/6ed54abc-de65-453a-aafb-b7e11ff82dac)
+![image](https://github.com/user-attachments/assets/8f9eadfe-98ca-48be-b389-6709b4227f9c)
 
 ### **Mapa de Recursos**
 
 muestra la configuracion final de la estructura de la VPC, la conexion de las subredes publicas a la tabla de rutas rt-publicas, y esta al intenret gateway, de esta forma direccionando el trafico de entrada y salida de internet a la VPC, tambien la conexion de las subredes privadas a la tabla de enrutamiento rt-privadas con la cual solamente se tiene salida a internet y no acceso desde fuera por lo que esta tabla de rutas se conecta al NAT gateway creado la cual realizara la salida a internet a travez de la tabla de rutas publicas y el internet gateway.
 
-![image](https://github.com/user-attachments/assets/640bf240-043a-41bd-a60f-22d41ebd55cb)
+![image](https://github.com/user-attachments/assets/d50d29b2-86c2-428a-9870-afb26a13add9)
+
 
 
 
