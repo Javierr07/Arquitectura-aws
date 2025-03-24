@@ -21,13 +21,13 @@
  
 muestra los detalles principales de la VPC creada, como es el ID, el CIDR block, y que la VPC se encuentra en estado available.
  
-![image](https://github.com/user-attachments/assets/9d878c64-065b-41ea-b04d-8c51a5805113)
+![image](https://github.com/user-attachments/assets/51cef8de-a631-48d9-b475-ea1383ea4a3f)
 
 ### **Subredes**
  
 lista de las subredes publicas y privadas creadas para la nuestra PVC, tambien se muestra informacion importante de las subredes credaas como lo es su nombre, la ID de la subred, el estado, la VPC que la contiene, su zona de sisponibilidad, etc..
 
-![image](https://github.com/user-attachments/assets/457a8e15-c241-4a02-a24f-2041b4cfb00e)
+![image](https://github.com/user-attachments/assets/85dd303a-61ff-4ce2-8127-a0856638dc4b)
 
 ### **Tablas de enrutamiento**
 
