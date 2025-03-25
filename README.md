@@ -96,6 +96,22 @@ configuracion general del grupo de autoscaling en el cual se detallo los servido
 ![image](https://github.com/user-attachments/assets/cc51a7ce-1fe5-4bcd-b462-7952d4e58f64)
 
 
+# RDS
+
+informacion general de la instancia RDS usando SQL server
+
+![image](https://github.com/user-attachments/assets/98097197-f8a4-4237-9e3f-244ba5d0be81)
 
 
-8. **RDS:** Creación de una base de datos en subredes privadas.  
+## grupo se seguridad  de la instancia RDS
+
+la configuracion de acceso para esta instancia es unicamente por instancias dentro de la vpc y fuera de la VPC mi IP local, todo lo demas de trafico entrante esta restringido unicamente tiene salida a internet a travez del NAT Gateway.
+
+![image](https://github.com/user-attachments/assets/be80f369-4569-4665-99b4-a5f67534705f)
+
+
+
+
+
+
+Creación de una base de datos en subredes privadas.  
