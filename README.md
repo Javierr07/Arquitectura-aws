@@ -119,6 +119,11 @@ usamos una instancia EC2 en nuestra subred publica para acceder a nuestra base d
 
 ## listado de las bases de datos
 
+muestra la lista de las bases de datos que contiene la instancia RDS.
 ![image](https://github.com/user-attachments/assets/aa4c1514-1321-4171-a833-ada3bb6a09db)
+
+
+
+
 
 
