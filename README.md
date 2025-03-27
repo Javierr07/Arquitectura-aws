@@ -123,7 +123,11 @@ muestra la lista de las bases de datos que contiene la instancia RDS.
 ![image](https://github.com/user-attachments/assets/aa4c1514-1321-4171-a833-ada3bb6a09db)
 
 
+## conclusiones
 
-
+Durante el desarollo de este proyecto se fueron generando retos los cuales me ayudaron a mejorar el uso de las herramientas que ofrece AWS los retos que mas se me complicaron son.
+- las estructura general de la VPC, que componentes lleva y como estan conectados todos para cumplir su funcion.
+- la integracion del ALB con el AutoScaling.
+- la conexion a la base de datos ya que no se tenia acceso directamente desde internet.
 
 
