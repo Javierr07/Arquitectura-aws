@@ -12,7 +12,7 @@
  
 ## Imagen diagrama de la estructura
 
-![image](https://github.com/user-attachments/assets/8a510e83-af4e-4182-af63-b2fad08d28fd)
+![image](https://github.com/user-attachments/assets/7be85252-d194-4274-b9fd-f2fc9faaf885)
 
 
 ## Arquitectura  
@@ -40,8 +40,6 @@ lista de las dos tablas de enrutamiento que se han utilizados para las subredes 
 muestra la configuracion final de la estructura de la VPC, la conexion de las subredes publicas a la tabla de rutas rt-publicas, y esta al intenret gateway, de esta forma direccionando el trafico de entrada y salida de internet a la VPC, tambien la conexion de las subredes privadas a la tabla de enrutamiento rt-privadas con la cual solamente se tiene salida a internet y no acceso desde fuera por lo que esta tabla de rutas se conecta al NAT gateway creado la cual realizara la salida a internet a travez de la tabla de rutas publicas y el internet gateway.
 
 ![image](https://github.com/user-attachments/assets/d50d29b2-86c2-428a-9870-afb26a13add9)
-
-
 
 
 
