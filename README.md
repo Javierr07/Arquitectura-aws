@@ -96,20 +96,29 @@ configuracion general del grupo de autoscaling en el cual se detallo los servido
 
 # RDS
 
-informacion general de la instancia RDS usando SQL server
+informacion general de la instancia RDS donde podemos observar en que VPC se creo, la zona de disponibilidad en la que sencuentra y las subredes.
 
-![image](https://github.com/user-attachments/assets/98097197-f8a4-4237-9e3f-244ba5d0be81)
+![image](https://github.com/user-attachments/assets/6ce7e630-2533-4080-bf19-13bd825ad3aa)
 
+## grupos de seguridad de la base RDS
 
-## grupo se seguridad  de la instancia RDS
+los grupos de seguridad de la base de datos nos muestran que solo tiene una regla de entrada por el puerto de postgreSQL, y una regla de salida por el mismo puerto asegurandonos que no tenga regla de entrada de internet  
 
-la configuracion de acceso para esta instancia es unicamente por instancias dentro de la vpc y fuera de la VPC mi IP local, todo lo demas de trafico entrante esta restringido unicamente tiene salida a internet a travez del NAT Gateway.
+![image](https://github.com/user-attachments/assets/af860c9e-0234-4e40-9848-63ac7ad8406f)
 
-![image](https://github.com/user-attachments/assets/be80f369-4569-4665-99b4-a5f67534705f)
-
-
-
+![image](https://github.com/user-attachments/assets/b025aa1d-9059-4905-b215-a209d7fdb5f4)
 
 
 
-Creación de una base de datos en subredes privadas.  
+## conexion a al base de datos a travez de una Bastion host
+
+usamos una instancia EC2 en nuestra subred publica para acceder a nuestra base de datos a travez de ella, esto genera mayor seguridad para el manejo de la base de datos.
+
+![image](https://github.com/user-attachments/assets/38e6f19a-8157-46af-a89c-7831ab473ec4)
+
+
+## listado de las bases de datos
+
+![image](https://github.com/user-attachments/assets/aa4c1514-1321-4171-a833-ada3bb6a09db)
+
+
